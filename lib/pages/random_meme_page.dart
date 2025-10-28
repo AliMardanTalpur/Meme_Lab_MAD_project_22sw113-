@@ -379,36 +379,36 @@ class _RandomMemePageState extends State<RandomMemePage> {
                           // Download + Save row (Download optional)
                           Row(
                             children: [
-                              Expanded(
-                                child: ElevatedButton(
-                                  style: ElevatedButton.styleFrom(
-                                    backgroundColor: Colors.redAccent,
-                                    padding: EdgeInsets.symmetric(
-                                      vertical: 12 * scale,
-                                    ),
-                                    shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(
-                                        16 * scale,
-                                      ),
-                                    ),
-                                    textStyle: GoogleFonts.poppins(
-                                      fontSize: 15 * scale,
-                                      fontWeight: FontWeight.w600,
-                                    ),
-                                    minimumSize: Size(0, 44 * scale),
-                                  ),
-                                  onPressed: memeUrl == null
-                                      ? null
-                                      : downloadMeme,
-                                  child: Text(
-                                    "Download",
-                                    style: GoogleFonts.poppins(
-                                      color: Colors.white,
-                                      fontSize: 15 * scale,
-                                    ),
-                                  ),
-                                ),
-                              ),
+                                // Expanded(
+                                //   child: ElevatedButton(
+                                //     style: ElevatedButton.styleFrom(
+                                //       backgroundColor: Colors.redAccent,
+                                //       padding: EdgeInsets.symmetric(
+                                //         vertical: 12 * scale,
+                                //       ),
+                                //       shape: RoundedRectangleBorder(
+                                //         borderRadius: BorderRadius.circular(
+                                //           16 * scale,
+                                //         ),
+                                //       ),
+                                //       textStyle: GoogleFonts.poppins(
+                                //         fontSize: 15 * scale,
+                                //         fontWeight: FontWeight.w600,
+                                //       ),
+                                //       minimumSize: Size(0, 44 * scale),
+                                //     ),
+                                //     onPressed: memeUrl == null
+                                //         ? null
+                                //         : downloadMeme,
+                                //     child: Text(
+                                //       "Download1",
+                                //       style: GoogleFonts.poppins(
+                                //         color: Colors.white,
+                                //         fontSize: 15 * scale,
+                                //       ),
+                                //     ),
+                                //   ),
+                                // ),
                               SizedBox(width: 12 * scale),
                               Expanded(
                                 child: OutlinedButton(
